@@ -1,0 +1,355 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VisualControls.HRVZZCityMapControl_ZZGA</name>
+    </assembly>
+    <members>
+        <member name="T:HighResolutionApps.VisualControls.HRVZZCityMapControl_ZZGA.HRVZZCityMapControl_ZZGA">
+            <summary>
+            HRVZZCityMapControl_ZZGA.xaml 的交互逻辑
+            </summary>
+            <summary>
+            HRVZZCityMapControl_ZZGA
+            </summary>
+        </member>
+        <member name="M:HighResolutionApps.VisualControls.HRVZZCityMapControl_ZZGA.HRVZZCityMapControl_ZZGA.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:HighResolutionApps.VisualControls.HRVZZCityMapControl_ZZGA.HRVZZCityMapControl_ZZGA.ShowMap(System.Data.DataTable)">
+            <summary>
+            地图轮播
+            </summary>
+        </member>
+        <member name="M:HighResolutionApps.VisualControls.HRVZZCityMapControl_ZZGA.HRVZZCityMapControl_ZZGA.InitMap(System.Data.DataTable)">
+            <summary>
+            初始化地图
+            </summary>
+        </member>
+        <member name="M:HighResolutionApps.VisualControls.HRVZZCityMapControl_ZZGA.HRVZZCityMapControl_ZZGA.Path_MouseEnter(System.Object,System.Windows.Input.MouseEventArgs)">
+            <summary>
+            鼠标移上事件
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HighResolutionApps.VisualControls.HRVZZCityMapControl_ZZGA.HRVZZCityMapControl_ZZGA.Path_MouseLeave(System.Object,System.Windows.Input.MouseEventArgs)">
+            <summary>
+            鼠标移出事件
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:HighResolutionApps.VisualControls.HRVZZCityMapControl_ZZGA.HRVZZCityMapControl_ZZGA.InputDataTableProperty">
+            <summary>
+            datatable
+            </summary>
+        </member>
+        <member name="M:HighResolutionApps.VisualControls.HRVZZCityMapControl_ZZGA.HRVZZCityMapControl_ZZGA.OnInputDataTableChange(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            改变输入的datatable
+            </summary> 
+        </member>
+        <member name="M:HighResolutionApps.VisualControls.HRVZZCityMapControl_ZZGA.HRVZZCityMapControl_ZZGA.ShouldSerializeContent">
+            <summary>
+            重要
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="F:HighResolutionApps.VisualControls.HRVZZCityMapControl_ZZGA.HRVZZCityMapControl_ZZGA.m_WindowStyleName">
+            <summary>
+            组件背景窗口名称
+            </summary>
+        </member>
+        <member name="M:HighResolutionApps.VisualControls.HRVZZCityMapControl_ZZGA.HRVZZCityMapControl_ZZGA.LoadContent">
+            <summary>
+            加载组件中的显示内容 加载成功 isContentLoaded = true;
+            </summary>
+            <returns>加载完成并无错误返回true,有错误返回false</returns>
+        </member>
+        <member name="F:HighResolutionApps.VisualControls.HRVZZCityMapControl_ZZGA.HRVZZCityMapControl_ZZGA.m_isContentLoaded">
+            <summary>
+            标识此组件的内容是否已加载，即LoadContent()方法已成功调用
+            </summary>
+        </member>
+        <member name="F:HighResolutionApps.VisualControls.HRVZZCityMapControl_ZZGA.HRVZZCityMapControl_ZZGA.m_renderOrder">
+            <summary>
+            加载顺序标识，数字越大越后加载，建议默认值为0，
+            *此属性应注册为可在设计端修改的属性
+            </summary>
+        </member>
+        <member name="P:HighResolutionApps.VisualControls.HRVZZCityMapControl_ZZGA.HRVZZCityMapControl_ZZGA.ControlGUID">
+            <summary>
+            本可视化组件类型的唯一标识
+            需要修改 guid
+            </summary>
+        </member>
+        <member name="P:HighResolutionApps.VisualControls.HRVZZCityMapControl_ZZGA.HRVZZCityMapControl_ZZGA.ControlName">
+            <summary>
+            本可视化组件类型名称
+            需要修改 组件名称
+            </summary>
+        </member>
+        <member name="F:HighResolutionApps.VisualControls.HRVZZCityMapControl_ZZGA.HRVZZCityMapControl_ZZGA.m_ControlInstanceMainTitle">
+            <summary>
+            实例名称即窗口默认主标题
+            *此属性应注册为可在设计端修改的属性
+            此属性默认值建议与ControlName相同
+            在设计过程中允许设计人员给此实例命名，便于人工查找区分
+            在可视化组件选取列表中将展示此名称
+            如：组件名称为：表格组件，实例名称为：2015年度北京市人口统计表
+            提示：组件名称可由组件开发者动态生成，如上个例子中，可将dataTable/dataView的名称作为此项为空时的默认名称
+            需要修改 默认主标题名称
+            </summary>
+        </member>
+        <member name="F:HighResolutionApps.VisualControls.HRVZZCityMapControl_ZZGA.HRVZZCityMapControl_ZZGA.m_ControlInstanceSubTitle">
+            <summary>
+            实例名称即窗口默认副标题
+            *此属性应注册为可在设计端修改的属性
+            在设计过程中允许设计人员给此实例命名，便于人工查找区分
+            在可视化组件选取列表中将展示此名称
+            如：组件名称为：表格组件，实例名称为：2015年度北京市人口统计表
+            提示：组件名称可由组件开发者动态生成，如上个例子中，可将dataTable/dataView的名称作为此项为空时的默认名称
+            需要修改 默认副标题名称
+            </summary>
+        </member>
+        <member name="F:HighResolutionApps.VisualControls.HRVZZCityMapControl_ZZGA.HRVZZCityMapControl_ZZGA.m_ControlInstanceDes">
+            <summary>
+            组件实例描述信息
+            用于设计人员描述组件所呈现的相关业务信息
+            通过此信息，交互控制人员可分辨组件内显示的业务内容
+            需要修改 组件示例
+            </summary>
+        </member>
+        <member name="P:HighResolutionApps.VisualControls.HRVZZCityMapControl_ZZGA.HRVZZCityMapControl_ZZGA.ControlDescription">
+            <summary>
+            可视化组件的描述信息
+            包括呈现说明，应用描述
+            需要修改  组件描述
+            </summary>
+        </member>
+        <member name="P:HighResolutionApps.VisualControls.HRVZZCityMapControl_ZZGA.HRVZZCityMapControl_ZZGA.ControlUseDescription">
+            <summary>
+            可视化组件配置应用说明
+            此属性在页面设计人员引用此组件时提示时使用，告诉设计人员如何配置数据源之用
+            必须配置哪几项，属性间相互关系说明等
+            需要修改  配置说明
+            </summary>
+        </member>
+        <member name="P:HighResolutionApps.VisualControls.HRVZZCityMapControl_ZZGA.HRVZZCityMapControl_ZZGA.Version">
+            <summary>
+            可视化组件版本信息
+            需要修改  组件版本
+            </summary>
+        </member>
+        <member name="P:HighResolutionApps.VisualControls.HRVZZCityMapControl_ZZGA.HRVZZCityMapControl_ZZGA.HRVRuntimeVersion">
+            <summary>
+            依赖的可视化开发、运行环境版本号
+            开发时使用的开发、运行环境版本号        
+            </summary>
+        </member>
+        <member name="P:HighResolutionApps.VisualControls.HRVZZCityMapControl_ZZGA.HRVZZCityMapControl_ZZGA.CompanyName">
+            <summary>
+            可视化组件所有权公司
+            </summary>
+        </member>
+        <member name="P:HighResolutionApps.VisualControls.HRVZZCityMapControl_ZZGA.HRVZZCityMapControl_ZZGA.DependentDllList">
+            <summary>
+            依赖动态库列表属性（高分平台dll,.net framework系统dll不用描述）
+            要求格式：版本号=动态库名称
+            样例    ：1.0.0.1=AForge.Imaging.Formats.dll
+            </summary>
+        </member>
+        <!-- 对于成员“P:HighResolutionApps.VisualControls.HRVZZCityMapControl_ZZGA.HRVZZCityMapControl_ZZGA.DependentResourceFileList”忽略有格式错误的 XML 注释 -->
+        <member name="P:HighResolutionApps.VisualControls.HRVZZCityMapControl_ZZGA.HRVZZCityMapControl_ZZGA.DependentFontList">
+            <summary>
+            依赖字体名称列表
+            </summary>
+        </member>
+        <member name="M:HighResolutionApps.VisualControls.HRVZZCityMapControl_ZZGA.HRVZZCityMapControl_ZZGA.getDataTableSample(System.String)">
+            <summary>
+            获取复合数据源样例数据
+            </summary>
+            <param name="propertyName">属性名称</param>
+            <returns></returns>
+        </member>
+        <member name="M:HighResolutionApps.VisualControls.HRVZZCityMapControl_ZZGA.HRVZZCityMapControl_ZZGA.ShowConfigurationWindow">
+            <summary>
+            通用控制触发窗口调用方法
+            通过此方法，可给最终用户提供对本组件的细节控制交互界面 预留
+            注意：如果需要与大屏幕上的渲染形成互动，则配置窗口改变的属性应都为同步属性
+            </summary>
+        </member>
+        <member name="M:HighResolutionApps.VisualControls.HRVZZCityMapControl_ZZGA.HRVZZCityMapControl_ZZGA.VisualContorlBase#IVisualControl#setNetLicenseIP(System.String)">
+            <summary>
+            设置网络授权的ip地址
+            </summary>
+            <param name="ip">网络授权的IP地址</param>
+        </member>
+        <member name="F:HighResolutionApps.VisualControls.HRVZZCityMapControl_ZZGA.HRVZZCityMapControl_ZZGA.m_RenderMethod">
+            <summary>
+            独立线程、进程加载及运行标识属性
+             *此属性应注册为可在设计端修改的属性
+            一般组件请设置InMainProcess为默认值
+            StandaloneThread：独立线程运行。StandaloneProcess：独立进程运行
+            </summary>
+        </member>
+        <member name="F:HighResolutionApps.VisualControls.HRVZZCityMapControl_ZZGA.HRVZZCityMapControl_ZZGA.m_MemoryRequest">
+            <summary>
+            内存要求
+            </summary>
+        </member>
+        <member name="P:HighResolutionApps.VisualControls.HRVZZCityMapControl_ZZGA.HRVZZCityMapControl_ZZGA.InstanceType">
+            <summary>
+            标识此可视化组件的实例化限制方式
+            大型可视化组件，如：3D，GIS等作为所有页面的公用底图使用的组件，可考虑多页面间共用一个实例。设置为：OnlyOneInstance
+            普通组件可创建多个实例。设置为：MultiInstance
+            </summary>
+        </member>
+        <member name="P:HighResolutionApps.VisualControls.HRVZZCityMapControl_ZZGA.HRVZZCityMapControl_ZZGA.OperateSystemSupportType">
+            <summary>
+            标识此可视化组件可支持的windows操作系统版本情况
+            系统默认按照x86模式进行渲染，如果组件仅支持x64操作系统，则必须在设计时标识使用独立进程渲染
+            仅当此可视化组件被设置为独立进程渲染，同时此项标识为x64的情况下
+            渲染引擎可考虑采用x64模式渲染，以增加内存的支持和x64特性的保障。
+            </summary>
+        </member>
+        <member name="M:HighResolutionApps.VisualControls.HRVZZCityMapControl_ZZGA.HRVZZCityMapControl_ZZGA.DisposeVisualControl">
+            <summary>
+            可视化组件释放资源接口
+            </summary>
+        </member>
+        <member name="F:HighResolutionApps.VisualControls.HRVZZCityMapControl_ZZGA.HRVZZCityMapControl_ZZGA.m_IsEditableInOperater">
+            此组件在显示时是否可以任意移动、改变大小、角度改变
+            避免有些组件被错误的移动到其他地方，比如标题，底图，背景图片等
+             *此属性应注册为可在设计端修改的属性
+             默认为可移动,true
+        </member>
+        <member name="F:HighResolutionApps.VisualControls.HRVZZCityMapControl_ZZGA.HRVZZCityMapControl_ZZGA.m_IsMustInOnlyOneMachine">
+            <summary>
+            是否可以跨屏，跨渲染节点显示
+             *此属性应注册为可在设计端修改的属性
+            默认为false
+            此属性为处理那些高分化改造不充分或无法改造的组件而设计
+            </summary>
+        </member>
+        <member name="M:HighResolutionApps.VisualControls.HRVZZCityMapControl_ZZGA.HRVZZCityMapControl_ZZGA.AfterPageHide">
+            <summary>
+            页面隐藏后
+            </summary>
+        </member>
+        <member name="M:HighResolutionApps.VisualControls.HRVZZCityMapControl_ZZGA.HRVZZCityMapControl_ZZGA.AfterPageInit">
+            <summary>
+            页面初始化后
+            </summary>
+        </member>
+        <member name="M:HighResolutionApps.VisualControls.HRVZZCityMapControl_ZZGA.HRVZZCityMapControl_ZZGA.AfterPageShow">
+            <summary>
+            页面展示之后
+            </summary>
+        </member>
+        <member name="M:HighResolutionApps.VisualControls.HRVZZCityMapControl_ZZGA.HRVZZCityMapControl_ZZGA.BeforePageHide">
+            <summary>
+            页面隐藏前
+            </summary>
+        </member>
+        <member name="M:HighResolutionApps.VisualControls.HRVZZCityMapControl_ZZGA.HRVZZCityMapControl_ZZGA.BeforePageShow">
+            <summary>
+            页面显示前
+            </summary>
+        </member>
+        <member name="M:HighResolutionApps.VisualControls.HRVZZCityMapControl_ZZGA.HRVZZCityMapControl_ZZGA.BeforePageDispose">
+            <summary>
+            页面销毁前 调用释放资源接口
+            </summary>
+        </member>
+        <member name="M:HighResolutionApps.VisualControls.HRVZZCityMapControl_ZZGA.HRVZZCityMapControl_ZZGA.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:HighResolutionApps.VisualControls.HRVZZCityMapControl_ZZGA.HRVUserControlWrappers">
+            <summary>
+            组件封装类 实现IVisualControlDescriptor接口
+            </summary>
+        </member>
+        <member name="P:HighResolutionApps.VisualControls.HRVZZCityMapControl_ZZGA.HRVUserControlWrappers.Name">
+            <summary>
+            组件名称
+            </summary>
+        </member>
+        <member name="M:HighResolutionApps.VisualControls.HRVZZCityMapControl_ZZGA.HRVUserControlPropProxy.GetProperties(System.Attribute[])">
+            <summary>
+            控件属性注册
+            </summary>
+            <param name="attributes"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HighResolutionApps.VisualControls.HRVZZCityMapControl_ZZGA.HRVUserControlPropProxy.RegisterProperty(System.Type,System.String,System.Type,System.Collections.Generic.List{HighResolutionApps.Common.Schema.PropertyWrapper},System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="objectType"></param>
+            <param name="sourceProperty"></param>
+            <param name="editor"></param>
+            <param name="result"></param>
+            <param name="description">描述</param>
+            <param name="group">组别</param>
+        </member>
+        <member name="F:HighResolutionApps.VisualControls.HRVZZCityMapControl_ZZGA.Plugin.environment">
+            <summary>
+            环境变量，用来判断当前组件运行环境
+            </summary>
+        </member>
+        <member name="F:HighResolutionApps.VisualControls.HRVZZCityMapControl_ZZGA.Plugin.controls">
+            <summary>
+            当前插件内包含的所有组件
+            </summary>
+        </member>
+        <member name="M:HighResolutionApps.VisualControls.HRVZZCityMapControl_ZZGA.Plugin.Finalize">
+            <summary>
+            析构函数
+            </summary>
+        </member>
+        <member name="P:HighResolutionApps.VisualControls.HRVZZCityMapControl_ZZGA.Plugin.Name">
+            <summary>
+            插件名称，理解为分类名称
+            </summary>
+        </member>
+        <member name="P:HighResolutionApps.VisualControls.HRVZZCityMapControl_ZZGA.Plugin.Controls">
+            <summary>
+            接口实现
+            </summary>
+        </member>
+        <member name="P:HighResolutionApps.VisualControls.HRVZZCityMapControl_ZZGA.Plugin.PluginId">
+            <summary>
+            ID，必须为唯一而且命名要有一定意义，便于脚本编写
+            需要修改
+            </summary>
+        </member>
+        <member name="M:HighResolutionApps.VisualControls.HRVZZCityMapControl_ZZGA.Plugin.Initialize">
+            <summary>
+            插件初始化 
+            需要修改
+            </summary>
+        </member>
+        <member name="M:HighResolutionApps.VisualControls.HRVZZCityMapControl_ZZGA.Plugin.SaveSettings">
+            <summary>
+            插件配置保存
+            </summary>
+        </member>
+        <member name="M:HighResolutionApps.VisualControls.HRVZZCityMapControl_ZZGA.Plugin.LoadSettings">
+            <summary>
+            插件配置载入
+            </summary>
+        </member>
+        <member name="M:HighResolutionApps.VisualControls.HRVZZCityMapControl_ZZGA.Plugin.OnProjectLoad(System.Object,System.EventArgs)">
+            <summary>
+            处理项目载入事件
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+    </members>
+</doc>
