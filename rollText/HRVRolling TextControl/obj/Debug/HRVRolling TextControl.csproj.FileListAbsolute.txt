@@ -1,0 +1,42 @@
+C:\Users\hp\Desktop\HRVRolling TextControl\HRVRolling TextControl\obj\Debug\HRVUserControl.baml
+C:\Users\hp\Desktop\HRVRolling TextControl\HRVRolling TextControl\obj\Debug\HRVUserControl.g.cs
+C:\Users\hp\Desktop\HRVRolling TextControl\HRVRolling TextControl\obj\Debug\VisualControls.HRVRolling_TextControl_MarkupCompile.cache
+C:\Users\hp\Desktop\HRVRolling TextControl\HRVRolling TextControl\obj\Debug\VisualControls.HRVRolling_TextControl.g.resources
+C:\Users\hp\Desktop\HRVRolling TextControl\HRVRolling TextControl\obj\Debug\VisualControls.HRVRolling_TextControl.dll
+C:\Users\hp\Desktop\HRVRolling TextControl\HRVRolling TextControl\obj\Debug\VisualControls.HRVRolling_TextControl.pdb
+C:\Users\hp\Desktop\滚动文本\HRVRolling TextControl\obj\Debug\HRVUserControl.baml
+C:\Users\hp\Desktop\滚动文本\HRVRolling TextControl\obj\Debug\HRVUserControl.g.cs
+C:\Users\hp\Desktop\滚动文本\HRVRolling TextControl\obj\Debug\VisualControls.HRVRollingtextControl_MarkupCompile.cache
+C:\Users\hp\Desktop\滚动文本\HRVRolling TextControl\obj\Debug\VisualControls.HRVRollingtextControl.g.resources
+C:\Users\hp\Desktop\滚动文本\HRVRolling TextControl\obj\Debug\VisualControls.HRVRollingtextControl.dll
+C:\Users\hp\Desktop\滚动文本\HRVRolling TextControl\obj\Debug\VisualControls.HRVRollingtextControl.pdb
+D:\HRV_2.0\APPS\VisualControls\VisualControls.HRVZZGAControl\VisualControls.HRVRollingtextControl.dll.config
+D:\HRV_2.0\APPS\VisualControls\VisualControls.HRVZZGAControl\VisualControls.HRVRollingtextControl.dll
+D:\HRV_2.0\APPS\VisualControls\VisualControls.HRVZZGAControl\VisualControls.HRVRollingtextControl.pdb
+D:\HRV_2.0\APPS\VisualControls\VisualControls.HRVZZGAControl\VisualControls.HRVRolling_TextControl.XML
+D:\HRV_2.0\apps\VisualControls\VisualControls.ZZGAControl\VisualControls.HRVRollingtextControl.dll.config
+D:\HRV_2.0\apps\VisualControls\VisualControls.ZZGAControl\VisualControls.HRVRollingtextControl.dll
+D:\HRV_2.0\apps\VisualControls\VisualControls.ZZGAControl\VisualControls.HRVRollingtextControl.pdb
+C:\vs_project\zzga\rollText\HRVRolling TextControl\obj\Debug\VisualControls.HRVRollingtextControl_ZZGA_MarkupCompile.cache
+C:\vs_project\zzga\rollText\HRVRolling TextControl\obj\Debug\VisualControls.HRVRollingtextControl_ZZGA.g.resources
+C:\vs_project\zzga\rollText\HRVRolling TextControl\obj\Debug\VisualControls.HRVRollingtextControl_ZZGA.dll
+C:\vs_project\zzga\rollText\HRVRolling TextControl\obj\Debug\VisualControls.HRVRollingtextControl_ZZGA.pdb
+C:\vs_project\zzga\rollText\HRVRolling TextControl\obj\Debug\HRVRollingTextControl.baml
+C:\vs_project\zzga\rollText\HRVRolling TextControl\obj\Debug\HRVRollingTextControl.g.cs
+F:\Work空间\004-工程示例\rollText\HRVRolling TextControl\obj\Debug\HRVRollingTextControl.baml
+F:\Work空间\004-工程示例\rollText\HRVRolling TextControl\obj\Debug\HRVRollingTextControl.g.cs
+F:\Work空间\004-工程示例\rollText\HRVRolling TextControl\obj\Debug\VisualControls.HRVRollingTextControl_ZZGA_MarkupCompile.cache
+F:\Work空间\004-工程示例\rollText\HRVRolling TextControl\obj\Debug\VisualControls.HRVRollingTextControl_ZZGA.g.resources
+F:\Work空间\004-工程示例\rollText\HRVRolling TextControl\obj\Debug\HRVRolling TextControl.csproj.CoreCompileInputs.cache
+F:\Work空间\004-工程示例\rollText\HRVRolling TextControl\obj\Debug\VisualControls.HRVRollingTextControl_ZZGA.dll
+F:\Work空间\004-工程示例\rollText\HRVRolling TextControl\obj\Debug\VisualControls.HRVRollingTextControl_ZZGA.pdb
+D:\HRV_2.0\Apps\VisualControls\VisualControls.HRVControl_ZZGA\VisualControls.HRV1RollingTextControl_ZZGA.dll.config
+D:\HRV_2.0\Apps\VisualControls\VisualControls.HRVControl_ZZGA\VisualControls.HRV1RollingTextControl_ZZGA.dll
+D:\HRV_2.0\Apps\VisualControls\VisualControls.HRVControl_ZZGA\VisualControls.HRV1RollingTextControl_ZZGA.pdb
+F:\Work空间\004-工程文件\rollText\HRVRolling TextControl\obj\Debug\HRVRollingTextControl.baml
+F:\Work空间\004-工程文件\rollText\HRVRolling TextControl\obj\Debug\HRVRollingTextControl.g.cs
+F:\Work空间\004-工程文件\rollText\HRVRolling TextControl\obj\Debug\VisualControls.HRV1RollingTextControl_ZZGA_MarkupCompile.cache
+F:\Work空间\004-工程文件\rollText\HRVRolling TextControl\obj\Debug\VisualControls.HRV1RollingTextControl_ZZGA.g.resources
+F:\Work空间\004-工程文件\rollText\HRVRolling TextControl\obj\Debug\HRVRolling TextControl.csproj.CoreCompileInputs.cache
+F:\Work空间\004-工程文件\rollText\HRVRolling TextControl\obj\Debug\VisualControls.HRV1RollingTextControl_ZZGA.dll
+F:\Work空间\004-工程文件\rollText\HRVRolling TextControl\obj\Debug\VisualControls.HRV1RollingTextControl_ZZGA.pdb
