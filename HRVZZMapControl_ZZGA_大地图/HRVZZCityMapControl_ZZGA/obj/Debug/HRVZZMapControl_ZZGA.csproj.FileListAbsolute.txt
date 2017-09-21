@@ -1,0 +1,17 @@
+C:\Users\hp\Desktop\新建文件夹 (2)\HRVZZMapControl_ZZGA\HRVZZMapControl_ZZGA\HRVZZCityMapControl_ZZGA\obj\Debug\HRVZZMapControl_ZZGA.csprojResolveAssemblyReference.cache
+C:\Users\hp\Desktop\新建文件夹 (2)\HRVZZMapControl_ZZGA\HRVZZMapControl_ZZGA\HRVZZCityMapControl_ZZGA\obj\Debug\HRVZZMapControl_ZZGA.baml
+C:\Users\hp\Desktop\新建文件夹 (2)\HRVZZMapControl_ZZGA\HRVZZMapControl_ZZGA\HRVZZCityMapControl_ZZGA\obj\Debug\HRVZZMapControl_ZZGA.g.cs
+C:\Users\hp\Desktop\新建文件夹 (2)\HRVZZMapControl_ZZGA\HRVZZMapControl_ZZGA\HRVZZCityMapControl_ZZGA\obj\Debug\VisualControls.HRV1ZZMapControl_ZZGA_MarkupCompile.cache
+C:\Users\hp\Desktop\新建文件夹 (2)\HRVZZMapControl_ZZGA\HRVZZMapControl_ZZGA\HRVZZCityMapControl_ZZGA\obj\Debug\VisualControls.HRV1ZZMapControl_ZZGA.g.resources
+C:\Users\hp\Desktop\新建文件夹 (2)\HRVZZMapControl_ZZGA\HRVZZMapControl_ZZGA\HRVZZCityMapControl_ZZGA\obj\Debug\VisualControls.HRV1ZZMapControl_ZZGA.dll
+C:\Users\hp\Desktop\新建文件夹 (2)\HRVZZMapControl_ZZGA\HRVZZMapControl_ZZGA\HRVZZCityMapControl_ZZGA\obj\Debug\VisualControls.HRV1ZZMapControl_ZZGA.pdb
+D:\HRV_2.0\apps\VisualControls\VisualControls.HRVControl_ZZGA\VisualControls.HRV1ZZMapControl_ZZGA.dll.config
+D:\HRV_2.0\apps\VisualControls\VisualControls.HRVControl_ZZGA\VisualControls.HRV1ZZMapControl_ZZGA.dll
+D:\HRV_2.0\apps\VisualControls\VisualControls.HRVControl_ZZGA\VisualControls.HRV1ZZMapControl_ZZGA.pdb
+F:\Work空间\代码检查\9.13 组件备份\HRVZZMapControl_ZZGA\HRVZZMapControl_ZZGA\HRVZZCityMapControl_ZZGA\obj\Debug\HRVZZMapControl_ZZGA.baml
+F:\Work空间\代码检查\9.13 组件备份\HRVZZMapControl_ZZGA\HRVZZMapControl_ZZGA\HRVZZCityMapControl_ZZGA\obj\Debug\HRVZZMapControl_ZZGA.g.cs
+F:\Work空间\代码检查\9.13 组件备份\HRVZZMapControl_ZZGA\HRVZZMapControl_ZZGA\HRVZZCityMapControl_ZZGA\obj\Debug\VisualControls.HRV1ZZMapControl_ZZGA_MarkupCompile.cache
+F:\Work空间\代码检查\9.13 组件备份\HRVZZMapControl_ZZGA\HRVZZMapControl_ZZGA\HRVZZCityMapControl_ZZGA\obj\Debug\VisualControls.HRV1ZZMapControl_ZZGA.g.resources
+F:\Work空间\代码检查\9.13 组件备份\HRVZZMapControl_ZZGA\HRVZZMapControl_ZZGA\HRVZZCityMapControl_ZZGA\obj\Debug\HRVZZMapControl_ZZGA.csproj.CoreCompileInputs.cache
+F:\Work空间\代码检查\9.13 组件备份\HRVZZMapControl_ZZGA\HRVZZMapControl_ZZGA\HRVZZCityMapControl_ZZGA\obj\Debug\VisualControls.HRV1ZZMapControl_ZZGA.dll
+F:\Work空间\代码检查\9.13 组件备份\HRVZZMapControl_ZZGA\HRVZZMapControl_ZZGA\HRVZZCityMapControl_ZZGA\obj\Debug\VisualControls.HRV1ZZMapControl_ZZGA.pdb
