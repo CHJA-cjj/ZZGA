@@ -1,0 +1,10 @@
+D:\HRV_2.0\APPS\VisualControls\VisualControls.ZZGA.UserControl\VisualControls.HRVZZGA_PoliceChartControl.dll.config
+D:\HRV_2.0\APPS\VisualControls\VisualControls.ZZGA.UserControl\VisualControls.HRVZZGA_PoliceChartControl.dll
+D:\HRV_2.0\APPS\VisualControls\VisualControls.ZZGA.UserControl\VisualControls.HRVZZGA_PoliceChartControl.pdb
+D:\HRV_2.0\APPS\VisualControls\VisualControls.ZZGA.UserControl\VisualControls.HRVZZGA_PoliceChartControl.XML
+D:\HRVChartInfo\HRVChartInfo\obj\Debug\HRVZZGA_PoliceChartControl.baml
+D:\HRVChartInfo\HRVChartInfo\obj\Debug\HRVZZGA_PoliceChartControl.g.cs
+D:\HRVChartInfo\HRVChartInfo\obj\Debug\VisualControls.HRVZZGA_PoliceChartControl_MarkupCompile.cache
+D:\HRVChartInfo\HRVChartInfo\obj\Debug\VisualControls.HRVZZGA_PoliceChartControl.g.resources
+D:\HRVChartInfo\HRVChartInfo\obj\Debug\VisualControls.HRVZZGA_PoliceChartControl.dll
+D:\HRVChartInfo\HRVChartInfo\obj\Debug\VisualControls.HRVZZGA_PoliceChartControl.pdb

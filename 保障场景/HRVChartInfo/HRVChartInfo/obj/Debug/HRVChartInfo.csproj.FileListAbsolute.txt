@@ -1,0 +1,11 @@
+D:\HRVChartInfo\HRVChartInfo\obj\Debug\HRVChartInfo.baml
+D:\HRVChartInfo\HRVChartInfo\obj\Debug\HRVChartInfo.g.cs
+D:\HRV_2.0\Apps\VisualControls\VisualControls.HRVUserControl\VisualControls.HRVPoliceChartInfo.dll.config
+D:\HRV_2.0\Apps\VisualControls\VisualControls.HRVUserControl\VisualControls.HRVPoliceChartInfo.dll
+D:\HRV_2.0\Apps\VisualControls\VisualControls.HRVUserControl\VisualControls.HRVPoliceChartInfo.pdb
+D:\HRVChartInfo\HRVChartInfo\obj\Debug\VisualControls.HRVPoliceChartInfo_MarkupCompile.cache
+D:\HRVChartInfo\HRVChartInfo\obj\Debug\VisualControls.HRVPoliceChartInfo.g.resources
+D:\HRVChartInfo\HRVChartInfo\obj\Debug\VisualControls.HRVPoliceChartInfo.dll
+D:\HRVChartInfo\HRVChartInfo\obj\Debug\VisualControls.HRVPoliceChartInfo.pdb
+D:\HRV_2.0\Apps\VisualControls\VisualControls.HRVUserControl\VisualControls.HRVZZGAChartInfo.XML
+D:\HRVChartInfo\HRVChartInfo\obj\Debug\HRVChartInfo.csprojResolveAssemblyReference.cache

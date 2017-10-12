@@ -1,0 +1,23 @@
+C:\Users\hp\Desktop\HRVTodayControl_ZZGA\HRVTodayControl_ZZGA\obj\Debug\VisualControls.HRVTodayControl_ZZGA_MarkupCompile.cache
+C:\Users\hp\Desktop\HRVTodayControl_ZZGA\HRVTodayControl_ZZGA\obj\Debug\VisualControls.HRVTodayControl_ZZGA.g.resources
+C:\Users\hp\Desktop\HRVTodayControl_ZZGA\HRVTodayControl_ZZGA\obj\Debug\VisualControls.HRVTodayControl_ZZGA.dll
+C:\Users\hp\Desktop\HRVTodayControl_ZZGA\HRVTodayControl_ZZGA\obj\Debug\VisualControls.HRVTodayControl_ZZGA.pdb
+C:\Users\hp\Desktop\株洲\HRVTodayControl_ZZGA\HRVTodayControl_ZZGA\obj\Debug\HRVTodayControl_ZZGA.csprojResolveAssemblyReference.cache
+C:\Users\hp\Desktop\株洲\HRVTodayControl_ZZGA\HRVTodayControl_ZZGA\obj\Debug\HRVUserControl.baml
+C:\Users\hp\Desktop\株洲\HRVTodayControl_ZZGA\HRVTodayControl_ZZGA\obj\Debug\HRVUserControl.g.cs
+C:\Users\hp\Desktop\株洲\HRVTodayControl_ZZGA\HRVTodayControl_ZZGA\obj\Debug\VisualControls.HRVTodayControl_ZZGA_MarkupCompile.cache
+C:\Users\hp\Desktop\株洲\HRVTodayControl_ZZGA\HRVTodayControl_ZZGA\obj\Debug\VisualControls.HRVTodayControl_ZZGA.g.resources
+C:\Users\hp\Desktop\株洲\HRVTodayControl_ZZGA\HRVTodayControl_ZZGA\obj\Debug\VisualControls.HRVTodayControl_ZZGA.dll
+C:\Users\hp\Desktop\株洲\HRVTodayControl_ZZGA\HRVTodayControl_ZZGA\obj\Debug\VisualControls.HRVTodayControl_ZZGA.pdb
+D:\HRV_2.0\Apps\VisualControls\VisualControls.HRVControl_ZZGA\VisualControls.HRVTodayControl_ZZGA.dll.config
+D:\HRV_2.0\Apps\VisualControls\VisualControls.HRVControl_ZZGA\VisualControls.HRVTodayControl_ZZGA.dll
+D:\HRV_2.0\Apps\VisualControls\VisualControls.HRVControl_ZZGA\VisualControls.HRVTodayControl_ZZGA.pdb
+C:\Users\hp\Desktop\新建文件夹 (2)\各种备份\株洲\HRVTodayControl_ZZGA\HRVTodayControl_ZZGA\obj\Debug\HRVTodayControl.baml
+C:\Users\hp\Desktop\新建文件夹 (2)\各种备份\株洲\HRVTodayControl_ZZGA\HRVTodayControl_ZZGA\obj\Debug\HRVTodayControl.g.cs
+C:\Users\hp\Desktop\新建文件夹 (2)\各种备份\株洲\HRVTodayControl_ZZGA\HRVTodayControl_ZZGA\obj\Debug\VisualControls.HRVTodayControl_ZZGA_MarkupCompile.cache
+C:\Users\hp\Desktop\新建文件夹 (2)\各种备份\株洲\HRVTodayControl_ZZGA\HRVTodayControl_ZZGA\obj\Debug\VisualControls.HRVTodayControl_ZZGA.g.resources
+C:\Users\hp\Desktop\新建文件夹 (2)\各种备份\株洲\HRVTodayControl_ZZGA\HRVTodayControl_ZZGA\obj\Debug\VisualControls.HRVTodayControl_ZZGA.dll
+C:\Users\hp\Desktop\新建文件夹 (2)\各种备份\株洲\HRVTodayControl_ZZGA\HRVTodayControl_ZZGA\obj\Debug\VisualControls.HRVTodayControl_ZZGA.pdb
+C:\Users\hp\Desktop\HRVTodayControl_ZZGA\HRVTodayControl_ZZGA\obj\Debug\HRVTodayControl_ZZGA.csprojResolveAssemblyReference.cache
+C:\Users\hp\Desktop\HRVTodayControl_ZZGA\HRVTodayControl_ZZGA\obj\Debug\HRVTodayControl.baml
+C:\Users\hp\Desktop\HRVTodayControl_ZZGA\HRVTodayControl_ZZGA\obj\Debug\HRVTodayControl.g.cs

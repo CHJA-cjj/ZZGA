@@ -1,0 +1,483 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VisualControls.HRVZZGA_PoliceChartControl</name>
+    </assembly>
+    <members>
+        <member name="T:HighResolutionApps.VisualControls.HRVChartInfo.HRVChartInfo">
+            <summary>
+            HRVChartInfo.xaml 的交互逻辑
+            </summary>
+            <summary>
+            HRVChartInfo
+            </summary>
+        </member>
+        <member name="M:HighResolutionApps.VisualControls.HRVChartInfo.HRVChartInfo.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:HighResolutionApps.VisualControls.HRVChartInfo.HRVChartInfo.BindData(System.Data.DataTable,System.Int32)">
+            <summary>
+            绑定Table表数据
+            </summary>
+            <param name="dt"></param>
+            <param name="ChartType"></param>
+        </member>
+        <member name="M:HighResolutionApps.VisualControls.HRVChartInfo.HRVChartInfo.BindChart(System.Data.DataTable,System.Int32)">
+            <summary>
+            绑定柱状图数据
+            </summary>
+            <param name="dtChart"></param>
+            <param name="ChartType"></param>
+        </member>
+        <member name="M:HighResolutionApps.VisualControls.HRVChartInfo.HRVChartInfo.txtPoliceNum_MouseLeftButtonDown(System.Object,System.Windows.Input.MouseButtonEventArgs)">
+            <summary>
+            警员数量点击事件
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HighResolutionApps.VisualControls.HRVChartInfo.HRVChartInfo.txtCarNum_MouseLeftButtonDown(System.Object,System.Windows.Input.MouseButtonEventArgs)">
+            <summary>
+            警车数量点击事件
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HighResolutionApps.VisualControls.HRVChartInfo.HRVChartInfo.txtOnlinePoliceNum_MouseLeftButtonDown(System.Object,System.Windows.Input.MouseButtonEventArgs)">
+            <summary>
+            在线警员点击事件
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HighResolutionApps.VisualControls.HRVChartInfo.HRVChartInfo.txtOnlineCarNum_MouseLeftButtonDown(System.Object,System.Windows.Input.MouseButtonEventArgs)">
+            <summary>
+            在线警车点击事件
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:HighResolutionApps.VisualControls.HRVChartInfo.HRVChartInfo.m_lb_ControlInstanceMainTitle">
+            <summary>
+            主标题
+            </summary>
+        </member>
+        <member name="F:HighResolutionApps.VisualControls.HRVChartInfo.HRVChartInfo.m_lb_ControlInstanceSubTitle">
+            <summary>
+            副标题
+            </summary>
+        </member>
+        <member name="M:HighResolutionApps.VisualControls.HRVChartInfo.HRVChartInfo.OnApplyTemplate">
+            <summary>
+            修改组件框中的标题
+            </summary>
+        </member>
+        <member name="M:HighResolutionApps.VisualControls.HRVChartInfo.HRVChartInfo.ShouldSerializeContent">
+            <summary>
+            重要 是否序列化内容  
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="F:HighResolutionApps.VisualControls.HRVChartInfo.HRVChartInfo.m_WindowStyleName">
+            <summary>
+            组件背景窗口名称
+            </summary>
+        </member>
+        <member name="M:HighResolutionApps.VisualControls.HRVChartInfo.HRVChartInfo.LoadContent">
+            <summary>
+            加载组件中的显示内容 加载成功 isContentLoaded = true;
+            </summary>
+            <returns>加载完成并无错误返回true,有错误返回false</returns>
+        </member>
+        <member name="F:HighResolutionApps.VisualControls.HRVChartInfo.HRVChartInfo.m_isContentLoaded">
+            <summary>
+            标识此组件的内容是否已加载，即LoadContent()方法已成功调用
+            </summary>
+        </member>
+        <member name="F:HighResolutionApps.VisualControls.HRVChartInfo.HRVChartInfo.m_renderOrder">
+            <summary>
+            加载顺序标识，数字越大越后加载，建议默认值为0，
+            *此属性应注册为可在设计端修改的属性
+            </summary>
+        </member>
+        <member name="F:HighResolutionApps.VisualControls.HRVChartInfo.HRVChartInfo.m_ControlInstanceMainTitle">
+            <summary>
+            实例名称即窗口默认主标题
+            *此属性应注册为可在设计端修改的属性
+            此属性默认值建议与ControlName相同
+            在设计过程中允许设计人员给此实例命名，便于人工查找区分
+            在可视化组件选取列表中将展示此名称
+            如：组件名称为：表格组件，实例名称为：2015年度北京市人口统计表
+            提示：组件名称可由组件开发者动态生成，如上个例子中，可将dataTable/dataView的名称作为此项为空时的默认名称
+            需要修改 默认主标题名称
+            </summary>
+        </member>
+        <member name="F:HighResolutionApps.VisualControls.HRVChartInfo.HRVChartInfo.m_ControlInstanceSubTitle">
+            <summary>
+            实例名称即窗口默认副标题
+            *此属性应注册为可在设计端修改的属性
+            在设计过程中允许设计人员给此实例命名，便于人工查找区分
+            在可视化组件选取列表中将展示此名称
+            如：组件名称为：表格组件，实例名称为：2015年度北京市人口统计表
+            提示：组件名称可由组件开发者动态生成，如上个例子中，可将dataTable/dataView的名称作为此项为空时的默认名称
+            需要修改 默认副标题名称
+            </summary>
+        </member>
+        <member name="F:HighResolutionApps.VisualControls.HRVChartInfo.HRVChartInfo.m_ControlInstanceDes">
+            <summary>
+            组件实例描述信息
+            用于设计人员描述组件所呈现的相关业务信息
+            通过此信息，交互控制人员可分辨组件内显示的业务内容
+            需要修改 组件示例
+            </summary>
+        </member>
+        <member name="M:HighResolutionApps.VisualControls.HRVChartInfo.HRVChartInfo.getDataTableSample(System.String)">
+            <summary>
+            获取复合数据源样例数据
+            </summary>
+            <param name="propertyName">属性名称</param>
+            <returns></returns>
+        </member>
+        <member name="M:HighResolutionApps.VisualControls.HRVChartInfo.HRVChartInfo.ShowConfigurationWindow">
+            <summary>
+            通用控制触发窗口调用方法
+            通过此方法，可给最终用户提供对本组件的细节控制交互界面 预留
+            注意：如果需要与大屏幕上的渲染形成互动，则配置窗口改变的属性应都为同步属性
+            </summary>
+        </member>
+        <member name="M:HighResolutionApps.VisualControls.HRVChartInfo.HRVChartInfo.VisualContorlBase#IVisualControl#setNetLicenseIP(System.String)">
+            <summary>
+            设置网络授权的ip地址
+            </summary>
+            <param name="ip">网络授权的IP地址</param>
+        </member>
+        <member name="F:HighResolutionApps.VisualControls.HRVChartInfo.HRVChartInfo.m_RenderMethod">
+            <summary>
+            独立线程、进程加载及运行标识属性
+             *此属性应注册为可在设计端修改的属性
+            一般组件请设置InMainProcess为默认值
+            StandaloneThread：独立线程运行。StandaloneProcess：独立进程运行
+            </summary>
+        </member>
+        <member name="F:HighResolutionApps.VisualControls.HRVChartInfo.HRVChartInfo.m_MemoryRequest">
+            <summary>
+            内存要求
+            </summary>
+        </member>
+        <member name="M:HighResolutionApps.VisualControls.HRVChartInfo.HRVChartInfo.DisposeVisualControl">
+            <summary>
+            可视化组件释放资源接口
+            </summary>
+        </member>
+        <member name="F:HighResolutionApps.VisualControls.HRVChartInfo.HRVChartInfo.m_IsEditableInOperater">
+            此组件在显示时是否可以任意移动、改变大小、角度改变
+            避免有些组件被错误的移动到其他地方，比如标题，底图，背景图片等
+             *此属性应注册为可在设计端修改的属性
+             默认为可移动,true
+        </member>
+        <member name="F:HighResolutionApps.VisualControls.HRVChartInfo.HRVChartInfo.m_IsMustInOnlyOneMachine">
+            <summary>
+            是否可以跨屏，跨渲染节点显示
+             *此属性应注册为可在设计端修改的属性
+            默认为false
+            此属性为处理那些高分化改造不充分或无法改造的组件而设计
+            </summary>
+        </member>
+        <member name="M:HighResolutionApps.VisualControls.HRVChartInfo.HRVChartInfo.AfterPageHide">
+            <summary>
+            整个页面隐藏之后的通知方法
+            </summary>
+        </member>
+        <member name="M:HighResolutionApps.VisualControls.HRVChartInfo.HRVChartInfo.AfterPageInit">
+            <summary>
+            整个页面初始化之后的通知方法，区分于组件loaded，
+            此方法为所有组件均loaded完成之后触发
+            </summary>
+        </member>
+        <member name="M:HighResolutionApps.VisualControls.HRVChartInfo.HRVChartInfo.AfterPageShow">
+            <summary>
+            整个页面显示到大屏之后的通知
+            </summary>
+        </member>
+        <member name="M:HighResolutionApps.VisualControls.HRVChartInfo.HRVChartInfo.BeforePageHide">
+            <summary>
+            整个页面隐藏显示之前的通知方法
+            </summary>
+        </member>
+        <member name="M:HighResolutionApps.VisualControls.HRVChartInfo.HRVChartInfo.BeforePageShow">
+            <summary>
+            整个页面显示之前的通知方法
+            </summary>
+        </member>
+        <member name="M:HighResolutionApps.VisualControls.HRVChartInfo.HRVChartInfo.BeforePageDispose">
+            <summary>
+            整个页面释放之前的通知方法，要求组件停止timer，处理逻辑，保存状态等
+            </summary>
+        </member>
+        <member name="M:HighResolutionApps.VisualControls.HRVChartInfo.HRVChartInfo.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="P:HighResolutionApps.VisualControls.HRVChartInfo.HRVChartInfo.TitleSize">
+            <summary>
+            标题文字大小
+            </summary>
+        </member>
+        <member name="P:HighResolutionApps.VisualControls.HRVChartInfo.HRVChartInfo.ChartXSize">
+            <summary>
+            柱状图X轴字体大小
+            </summary>
+        </member>
+        <member name="P:HighResolutionApps.VisualControls.HRVChartInfo.HRVChartInfo.InputDataTable">
+            <summary>
+            数据绑定
+            </summary>
+        </member>
+        <member name="P:HighResolutionApps.VisualControls.HRVChartInfo.HRVChartInfo.TextHeaderContent">
+            <summary>
+            表格标题文字
+            </summary>
+        </member>
+        <member name="P:HighResolutionApps.VisualControls.HRVChartInfo.HRVChartInfo.WindowStyleName">
+            <summary>
+            组件背景窗口名称
+            </summary>
+        </member>
+        <member name="P:HighResolutionApps.VisualControls.HRVChartInfo.HRVChartInfo.isContentLoaded">
+            <summary>
+            是否加载完成
+            </summary>
+        </member>
+        <member name="P:HighResolutionApps.VisualControls.HRVChartInfo.HRVChartInfo.RenderOrder">
+            <summary>
+            加载顺序
+            </summary>
+        </member>
+        <member name="P:HighResolutionApps.VisualControls.HRVChartInfo.HRVChartInfo.ControlGUID">
+            <summary>
+            本可视化组件类型的唯一标识
+            需要修改 guid
+            </summary>
+        </member>
+        <member name="P:HighResolutionApps.VisualControls.HRVChartInfo.HRVChartInfo.ControlName">
+            <summary>
+            本可视化组件类型名称
+            需要修改 组件名称
+            </summary>
+        </member>
+        <member name="P:HighResolutionApps.VisualControls.HRVChartInfo.HRVChartInfo.ControlInstanceMainTitle">
+            <summary>
+            窗口默认主标题
+            </summary>
+        </member>
+        <member name="P:HighResolutionApps.VisualControls.HRVChartInfo.HRVChartInfo.ControlInstanceSubTitle">
+            <summary>
+            窗口默认副标题
+            </summary>
+        </member>
+        <member name="P:HighResolutionApps.VisualControls.HRVChartInfo.HRVChartInfo.ControlInstanceDes">
+            <summary>
+            组件描述信息
+            </summary>
+        </member>
+        <member name="P:HighResolutionApps.VisualControls.HRVChartInfo.HRVChartInfo.ControlDescription">
+            <summary>
+            可视化组件的描述信息
+            包括呈现说明，应用描述
+            需要修改  组件描述
+            </summary>
+        </member>
+        <member name="P:HighResolutionApps.VisualControls.HRVChartInfo.HRVChartInfo.ControlUseDescription">
+            <summary>
+            可视化组件配置应用说明
+            此属性在页面设计人员引用此组件时提示时使用，告诉设计人员如何配置数据源之用
+            必须配置哪几项，属性间相互关系说明等
+            需要修改  配置说明
+            </summary>
+        </member>
+        <member name="P:HighResolutionApps.VisualControls.HRVChartInfo.HRVChartInfo.Version">
+            <summary>
+            可视化组件版本信息
+            需要修改  组件版本
+            </summary>
+        </member>
+        <member name="P:HighResolutionApps.VisualControls.HRVChartInfo.HRVChartInfo.HRVRuntimeVersion">
+            <summary>
+            依赖的可视化开发、运行环境版本号
+            开发时使用的开发、运行环境版本号        
+            </summary>
+        </member>
+        <member name="P:HighResolutionApps.VisualControls.HRVChartInfo.HRVChartInfo.CompanyName">
+            <summary>
+            可视化组件所有权公司
+            </summary>
+        </member>
+        <member name="P:HighResolutionApps.VisualControls.HRVChartInfo.HRVChartInfo.DependentDllList">
+            <summary>
+            依赖动态库列表属性（高分平台dll,.net framework系统dll不用描述）
+            要求格式：版本号=动态库名称
+            样例    ：1.0.0.1=AForge.Imaging.Formats.dll
+            </summary>
+        </member>
+        <member name="P:HighResolutionApps.VisualControls.HRVChartInfo.HRVChartInfo.DependentResourceFileList">
+            <summary>
+            依赖文件资源列表属性
+            要求资源放置位置为启动程序(可视化组件dll)目录为起点的
+            ../Files_Resource/xxxx.dll/文件夹内，xxxx为本可视化组件所在的dll名称
+            资源文件夹内可创建子文件夹
+            </summary>
+        </member>
+        <member name="P:HighResolutionApps.VisualControls.HRVChartInfo.HRVChartInfo.DependentFontList">
+            <summary>
+            依赖字体名称列表
+            </summary>
+        </member>
+        <member name="P:HighResolutionApps.VisualControls.HRVChartInfo.HRVChartInfo.RenderMethod">
+            <summary>
+            渲染模式
+            </summary>
+        </member>
+        <member name="P:HighResolutionApps.VisualControls.HRVChartInfo.HRVChartInfo.MemoryRequest">
+            <summary>
+            内存需求
+            </summary>
+        </member>
+        <member name="P:HighResolutionApps.VisualControls.HRVChartInfo.HRVChartInfo.InstanceType">
+            <summary>
+            标识此可视化组件的实例化限制方式
+            大型可视化组件，如：3D，GIS等作为所有页面的公用底图使用的组件，可考虑多页面间共用一个实例。设置为：OnlyOneInstance
+            普通组件可创建多个实例。设置为：MultiInstance
+            </summary>
+        </member>
+        <member name="P:HighResolutionApps.VisualControls.HRVChartInfo.HRVChartInfo.OperateSystemSupportType">
+            <summary>
+            标识此可视化组件可支持的windows操作系统版本情况
+            系统默认按照x86模式进行渲染，如果组件仅支持x64操作系统，则必须在设计时标识使用独立进程渲染
+            仅当此可视化组件被设置为独立进程渲染，同时此项标识为x64的情况下
+            渲染引擎可考虑采用x64模式渲染，以增加内存的支持和x64特性的保障。
+            </summary>
+        </member>
+        <member name="P:HighResolutionApps.VisualControls.HRVChartInfo.HRVChartInfo.IsEditableInOperater">
+            <summary>
+            是否可编辑
+            </summary>
+        </member>
+        <member name="P:HighResolutionApps.VisualControls.HRVChartInfo.HRVChartInfo.IsMustInOnlyOneMachine">
+            <summary>
+            是否可以跨屏
+            </summary>
+        </member>
+        <member name="T:HighResolutionApps.VisualControls.HRVChartInfo.HRVUserControlWrappers">
+            <summary>
+            组件封装类 实现IVisualControlDescriptor接口
+            </summary>
+        </member>
+        <member name="M:HighResolutionApps.VisualControls.HRVChartInfo.HRVUserControlWrappers.CreateControl">
+            <summary>
+            创建组件
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HighResolutionApps.VisualControls.HRVChartInfo.HRVUserControlWrappers.getPropProxy(System.Object)">
+            <summary>
+            获取组件注册属性
+            </summary>
+            <param name="o"></param>
+            <returns></returns>
+        </member>
+        <member name="P:HighResolutionApps.VisualControls.HRVChartInfo.HRVUserControlWrappers.Name">
+            <summary>
+            组件名称
+            </summary>
+        </member>
+        <member name="P:HighResolutionApps.VisualControls.HRVChartInfo.HRVUserControlWrappers.PluginId">
+            <summary>
+            组件标识
+            </summary>
+        </member>
+        <member name="P:HighResolutionApps.VisualControls.HRVChartInfo.HRVUserControlWrappers.Type">
+            <summary>
+            组件类型 需要修改
+            </summary>
+        </member>
+        <member name="P:HighResolutionApps.VisualControls.HRVChartInfo.HRVUserControlWrappers.ManipulatorKind">
+            <summary>
+            组件操作类型
+            </summary>
+        </member>
+        <member name="P:HighResolutionApps.VisualControls.HRVChartInfo.HRVUserControlWrappers.Tag">
+            <summary>
+            标签
+            </summary>
+        </member>
+        <member name="T:HighResolutionApps.VisualControls.HRVChartInfo.HRVUserControlPropProxy">
+            <summary>
+            组件属性注册封装
+            </summary>
+        </member>
+        <member name="M:HighResolutionApps.VisualControls.HRVChartInfo.HRVUserControlPropProxy.#ctor(System.Object)">
+            <summary>
+            构造方法
+            </summary>
+            <param name="controlledObject"></param>
+        </member>
+        <member name="M:HighResolutionApps.VisualControls.HRVChartInfo.HRVUserControlPropProxy.GetProperties(System.Attribute[])">
+            <summary>
+            组件属性注册
+            </summary>
+            <param name="attributes"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HighResolutionApps.VisualControls.HRVChartInfo.HRVUserControlPropProxy.RegisterProperty(System.Type,System.String,System.Type,System.Collections.Generic.List{HighResolutionApps.Common.Schema.PropertyWrapper},System.String,System.String)">
+            <summary>
+            注册属性
+            </summary>
+            <param name="objectType"></param>
+            <param name="sourceProperty"></param>
+            <param name="editor"></param>
+            <param name="result"></param>
+            <param name="description">描述</param>
+            <param name="group">组别</param>
+        </member>
+        <member name="T:HighResolutionApps.VisualControls.HRVChartInfo.Plugin">
+            <summary>
+            组件组类
+            </summary>
+        </member>
+        <member name="F:HighResolutionApps.VisualControls.HRVChartInfo.Plugin.controls">
+            <summary>
+            当前插件内包含的所有组件
+            </summary>
+        </member>
+        <member name="M:HighResolutionApps.VisualControls.HRVChartInfo.Plugin.Initialize">
+            <summary>
+            插件初始化 
+            需要修改
+            </summary>
+        </member>
+        <member name="M:HighResolutionApps.VisualControls.HRVChartInfo.Plugin.DeInitialize">
+            <summary>
+            注销事件
+            </summary>
+        </member>
+        <member name="P:HighResolutionApps.VisualControls.HRVChartInfo.Plugin.Name">
+            <summary>
+            插件名称，理解为分类名称 需要修改
+            </summary>
+        </member>
+        <member name="P:HighResolutionApps.VisualControls.HRVChartInfo.Plugin.Controls">
+            <summary>
+            接口实现
+            </summary>
+        </member>
+        <member name="P:HighResolutionApps.VisualControls.HRVChartInfo.Plugin.PluginId">
+            <summary>
+            插件ID，必须为唯一而且命名要有一定意义，便于脚本编写
+            需要修改
+            </summary>
+        </member>
+    </members>
+</doc>
